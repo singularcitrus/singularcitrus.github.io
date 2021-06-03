@@ -1,0 +1,92 @@
+* {
+    background-color: #222222;
+    color: #eeeeee;
+    font-family: open sans,sans-serif;
+    text-align: center;
+}
+
+.index__main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.index__main-container .col {
+    margin: auto;
+    justify-content: center;
+    max-width: 500px;
+}
+
+.index__main-logo {
+    margin-inline: auto;
+    margin-bottom: 20px;
+    height: 128px;
+}
+
+.index h1 {
+    margin: auto;
+    font-family: Orbitron, serif;
+    font-size: 5.125rem;
+    font-weight: 400;
+}
+
+.index h2 {
+    font-weight: 400;
+    font-family: Orbitron, serif;
+    font-size: 1.875rem;
+}
+
+.index h3 {
+    font-weight: 400;
+    font-family: Orbitron, serif;
+    font-size: 1.375rem;
+}
+
+.index a {
+    text-decoration: none;
+}
+
+.index .button-blue {
+    width: 100%;
+    display: block;
+    font-weight: 700;
+    margin: 20px auto 0 0;
+    background-color: #1e90ff;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.index .button-blue:hover {
+    background-color: #00d8ff;
+}
+
+.index .button-yellow {
+    width: 100%;
+    display: block;
+    font-weight: 700;
+    margin: 20px auto 0 0;
+    background-color: #f1c50e;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.index .button-yellow:hover {
+    background-color: #f19e0e;
+}
+
+.doppler {
+    color: #478ac9;
+}
+.sblink {
+    color: #ffa800;
+}
+
+.vertical-center {
+    margin: 0;
+    width: 99%;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
