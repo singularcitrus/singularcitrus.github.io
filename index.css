@@ -60,6 +60,22 @@
     background-color: #00d8ff;
 }
 
+.index .button-green {
+    width: 100%;
+    display: block;
+    font-weight: 700;
+    margin: 20px auto 0 0;
+    background-color: #1eff90;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
+
+.index .button-green:hover {
+    background-color: #00ffd8;
+}
+
+
 .index .button-yellow {
     width: 100%;
     display: block;
